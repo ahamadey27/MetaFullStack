@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Desktop/bootstrap-5.3.7-dist/css"
+		},
+		{
+			"path": "../../../../Desktop/bootstrap-5.3.7-dist/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TwoColumnMenu"
+	}
+}
