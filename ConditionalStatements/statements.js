@@ -15,6 +15,9 @@ for (let i = 1; i <= 10; i++)
         console.log(i);
 }
 
+console.log("Switch statement");
+console.log("\n");
+
 for (let i = 1; i <= 10; i++)
 {
     switch (i)
@@ -22,7 +25,7 @@ for (let i = 1; i <= 10; i++)
         case 1: console.log("Gold Medal"); break;
         case 2: console.log("Silver Medal"); break;
         case 3: console.log("Bronze Medal"); break;
-
+        default: console.log(i); //runs if no condition is met
     }
 
         
