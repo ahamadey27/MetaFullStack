@@ -1,11 +1,13 @@
-function addTwoNumbers(a, b)
-{
-    try{
-        console.log(a + b);
-    }catch(err){
-        console.log(err);
+function addTwoNums(a,b) {
+    try {
+        if((typeof(a) != 'number') || (typeof(b) != 'number')) {
+            throw new ReferenceError("One argument is not a number")
+        } else {
+            console.log(a + b)
+        }
+    } catch(err) {
+        console.log("Error!", err)
     }
-    
 }
-
-addTwoNumbers(5, "5");
+addTwoNums(6, "5")
+console.log("It still works")
