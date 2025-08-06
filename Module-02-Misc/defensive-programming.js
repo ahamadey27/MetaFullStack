@@ -1,10 +1,11 @@
 function letterFinder(word, match) {
+    let letterFinder = (typeof(word)) == ('string' && word.length >= 2);
     for(var i = 0; i < word.length; i++) {
         if(word[i] == match) {
             //if the current character at position i in the word is equal to the match
-            console.log('Found the', match, 'at', i)
+            console.log(`Found the ${match} at ${i}`);
         } else {
-            console.log('---No match found at', i)
+            console.log(`---No match found at ${i}`);
         }
     }
 }
